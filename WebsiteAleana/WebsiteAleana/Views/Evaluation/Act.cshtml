@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Оценка ценных бумаг";
+}
+
+@section EvaluationSideMenu{
+    <li class="parent item42">
+        <a asp-area="" asp-controller="Evaluation" asp-action="Business"><span>Оценка</span></a>
+        <ul>
+            <li class="item55"><a asp-area="" asp-controller="Evaluation" asp-action="Business"><span>Оценка бизнеса</span></a></li>
+            <li id="current" class="active item52"><a asp-area="" asp-controller="Evaluation" asp-action="Act"><span>Оценка акций</span></a></li>
+            <li class="item51"><a asp-area="" asp-controller="Evaluation" asp-action="RealEstate"><span>Оценка недвижимости</span></a></li>
+            <li class="item53"><a asp-area="" asp-controller="Evaluation" asp-action="Auto"><span>Оценка транспорта</span></a></li>
+            <li class="item54"><a asp-area="" asp-controller="Evaluation" asp-action="Equipment"><span>Оценка оборудования</span></a></li>
+            <li class="item68"><a asp-area="" asp-controller="Evaluation" asp-action="IntellectualProperty"><span>Оценка интеллектуальной собственности</span></a></li>
+            <li class="item60"><a asp-area="" asp-controller="Evaluation" asp-action="Ground"><span>Оценка земли</span></a></li>
+            <li class="item70"><a asp-area="" asp-controller="Evaluation" asp-action="Price"><span>Прайс лист</span></a></li>
+            <li class="item74"><a asp-area="" asp-controller="Evaluation" asp-action="Tax"><span>Оценка для целей налогообложения</span></a></li>
+            <li class="item75"><a asp-area="" asp-controller="Evaluation" asp-action="NormativeBase"><span>Нормативна база з питань оцінки</span></a></li>
+        </ul>
+    </li>
+}
+
+@section Content{
+    <table class="contentpaneopen">
+        <tr>
+            <td valign="top">
+                <p class="zagolovok2" style="margin-bottom:5px;">Оценка ценных бумаг</p>
+                <p><img src="~/images/act.jpg" border="0" alt="Оценка ценных бумаг" width="157" height="157" style="float: left; margin-left:25px; margin-right: 25px; margin-bottom: 10px; border: 0pt none;" />Компания производит оценку ценных бумаг:</p>
+                <ul style="margin-left:185px;">
+                    <li> паевых (долевых) - обыкновенных и привилегированных акций; </li>
+                    <li> долговых - облигаций и векселей; </li>
+                    <li> производных - опционов, фьючерсов и пр. </li>
+                </ul>
+                <p> </p>
+                <p> </p>
+                <p> </p>
+                <p class="abzac">Оценка ценных бумаг производится при:</p>
+                <ul>
+                    <li> купле-продаже; </li>
+                    <li> эмиссии; </li>
+                    <li> внесении в уставной фонд; </li>
+                    <li> Оформлении залога при получении кредита; </li>
+                    <li> Определении рыночной стоимости предприятия и его активов. </li>
+                </ul>
+                <p class="abzac">Оценка производится в соответствии с нормами действующего  законодательства , в частности, Национальными стандартами оценки, а  также Международными стандартами оценки (МСО), на основании Договора с  Заказчиком.</p>
+                <p class="abzac">Основными факторами, влияющими на стоимость ценной бумаги, являются:</p>
+                <ul>
+                    <li> ликвидность; </li>
+                    <li> соотношение спроса и предложения на торговых площадках; </li>
+                    <li> котировки; </li>
+                    <li> доходность или текущая стоимость будущего дохода; </li>
+                    <li> характеристики эмитента; </li>
+                    <li> надежность ценной бумаги, риски неисполнения обязательств. </li>
+                </ul>
+                <p class="abzac">Оценка бизнеса и акций тесно связаны друг с другом. Выбор метода оценки  зависит от того, котируется ли на фондовом рынке данная акция. Если  оцениваемая акция котируется, то для оценка ее стоимости производится на  основе котировочных данных. Если же оцениваемые акции не обращаются на  торговых площадках, то процесс оценки значительно усложняется, и в этом  случае для оценки даже одной акции необходимо произвести <a href="/ocenka/business">оценку всего  предприятия</a>, а потом определить стоимость соответствующей доли.</p>
+                <p class="abzac">Облигации выпускаются государством, местными органами власти или  компаниями в форме ценных бумаг с фиксированной или переменной  процентной ставкой. Большая часть облигаций не имеет обеспечения и не  дает права на участие в управлении. Оценка облигаций производится как  для облигаций, которые котируются, так и те, которые не котируются. Цена  облигации зависит от таких переменных показателей как процентная  ставка, спрос и предложение, срок до погашения, кредитное качество и  налоговый статус.</p>
+                <p class="abzac"><strong>Оценка векселя</strong> – это определение его стоимости как  финансового инструмента, который может приносить прибыль (при получении  процентов либо же продаже ниже ликвидационной стоимости).</p>
+                <p class="abzac"><a href="/Evaluation/Price" target="_blank">Цены и сроки выполнения работ по оценке ценных бумаг<br /></a></p>
+                <p></p>
+                <p><strong>Телефоны: (056) 767-60-02, (063) 930-23-04, (066) 756-70-81, (098) 756-49-03</strong></p>
+            </td>
+        </tr>
+    </table>
+    <span class="article_separator">&nbsp;</span>
+}

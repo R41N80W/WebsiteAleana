@@ -1,0 +1,53 @@
+﻿@{
+    ViewData["Title"] = "Команда";
+}
+
+@section AboutSideMenu{
+    <li class="parent active item40">
+        <a asp-area="" asp-controller="About" asp-action="Index"><span>О компании</span></a>
+        <ul>
+            <li id="current" class="active item41"><a asp-area="" asp-controller="About" asp-action="Team"><span>Команда</span></a></li>
+            <li class="item43"><a asp-area="" asp-controller="About" asp-action="Clients"><span>Клиенты</span></a></li>
+            <li class="item44"><a asp-area="" asp-controller="About" asp-action="Certificates"><span>Сертификаты</span></a></li>
+            <li class="item45"><a asp-area="" asp-controller="About" asp-action="Partners"><span>Партнеры</span></a></li>
+        </ul>
+    </li>        
+}
+
+@section Content{
+    <table class="contentpaneopen">
+        <tr>
+            <td valign="top">
+                <p style="text-align: center;"><strong><em><img src="~/images/med1.jpg" border="0" alt="Елена Дмитриевна" width="170" height="226" style="float: right; border: 0pt none; margin-left: 15px; margin-right: 15px;" /></em><span style="font-size: 14px;"><span style="font-family: georgia,palatino; color: #302db2;">МЕЛЬНИЧЕНКО ЕЛЕНА ДМИТРИЕВНА  – директор</span></span></strong></p>
+                <ul class="indent1">
+                    <li>доцент Национальной металлургической академии Украины</li>
+                    <br>
+                    <li>Председатель Днепропетровского областного отделения Всеукраинской общественной организации <a href="http://afo.com.ua/ru/myprofile/userprofile/187" target="_blank">«Ассоциация специалистов оценки»</a></li>
+                    <br>
+                    <li>Председатель Днепропетровского областного отделения Всеукраинской  общественной организации <a href="http://afo.com.ua/index.php/showbigphoto/175" target="_blank">«</a><a href="http://www.infopro.co.ua/" target="_blank">Союз оценщиков земли</a>»</li>
+                </ul>
+                <ul class="indent1">
+                    <li>эксперт-оценщик высшей категории сертифицированный <a href="http://afo.com.ua/ru/myprofile/userprofile/187" target="_blank">«Ассоциацией специалистов оценки»</a></li>
+                </ul>
+                <ul class="indent1">
+                    <li>преподаватель Международного института бизнеса (г.Киев), Украинского общества оценщиков (г.Киев), Института последипломного обучения Днепропетровского университета экономики и права.</li>
+                </ul>
+                <p class="indent1">Профессиональный стаж оценочной деятельности – 22 года.</p>
+                <p> </p>
+                <p><em><strong><img src="~/images/tpa.jpg" border="0" alt="Павел Анатольевич" width="170" height="226" style="float: right; border: 0pt none; margin-left: 15px; margin-right: 15px;" /></strong></em></p>
+                <p style="text-align: center;"> </p>
+                <p style="text-align: center;"><strong><span style="font-size: 14px;"><span style="font-family: georgia,palatino; color: #302db2;">ТЕРЛЕНКО ПАВЕЛ АНАТОЛЬЕВИЧ - заместитель директора</span></span></strong></p>
+                <ul class="indent1">
+                    <li style="text-align: justify;">член Всеукраинской общественной организации «<a class="Indent1" href="http://afo.com.ua/ru/myprofile/userprofile/246" target="_blank">Ассоциация специалистов оценки</a>»</li>
+                    <li style="text-align: justify;">член Всеукраинской  общественной организации «<a class="Indent1" href="http://www.infopro.co.ua/" target="_blank">Союз оценщиков земли</a>»</li>
+                </ul>
+                <p class="indent1" style="text-align: justify;">Профессиональный стаж оценочной деятельности – 15 лет.</p>
+                <p style="text-align: justify;"> </p>
+                <p style="text-align: justify;"> </p>
+                <p style="text-align: justify;"> </p>
+                <p class="abzac" style="text-align: justify;">Команда оценщиков консалтингового центра "Алеана" в составе 5 сертифицированных экспертов и 4 стажеров выполняет работы по оценке: объектов в материальной форме, целостных имущественных комплексов, паев, ценных бумаг и нематериальных активов, в том числе интеллектуальной собственности,  а также по оценке земли и земельных участков.</p>
+            </td>
+        </tr>
+    </table>
+    <span class="article_separator">&nbsp;</span>
+}

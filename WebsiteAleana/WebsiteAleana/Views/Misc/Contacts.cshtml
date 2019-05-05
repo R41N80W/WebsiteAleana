@@ -1,0 +1,46 @@
+﻿@{
+    ViewData["Title"] = "Контакты";
+}
+
+@section MiscSideMenu{
+    <li class="item56"><a asp-area="" asp-controller="Misc" asp-action="Reorganization"><span>Преобразование АО</span></a></li>
+    <li class="item57"><a asp-area="" asp-controller="Misc" asp-action="Tech"><span>Изготовление техпаспорта</span></a></li>
+    <li class="item59"><a asp-area="" asp-controller="Misc" asp-action="UnauthBuild"><span>Узаконение самостроев</span></a></li>
+    <li id="current" class="active item71"><a asp-area="" asp-controller="Misc" asp-action="Contacts"><span>Контакты</span></a></li>
+    <li class="item72"><a asp-area="" asp-controller="Misc" asp-action="Articles"><span>Статьи</span></a></li>
+}
+
+@section Content{
+    <table class="contentpaneopen">
+        <tr>
+            <td valign="top">
+                <p class="zagolovok2">Контактная информация</p>
+                <p style="text-indent:30px; line-height:10px;">Днепр</p>
+                <p style="text-indent:30px; line-height:10px;">ул. Василия Чапленко 5, оф. 6</p>
+                <p style="text-indent:30px; line-height:10px;">(056) 767-60-02, (063) 930-23-04, (066) 756-70-81, (098) 756-49-03</p>
+                <p style="text-indent:30px; line-height:10px;">
+                    <strong>
+                        <script type='text/javascript' src="~/js/email1.js"></script>
+                        <script type='text/javascript' src="~/js/email2.js"></script>
+                        Этот e-mail адрес защищен от спам-ботов, для его просмотра у Вас должен быть включен Javascript
+                        <script type='text/javascript' src="~/js/email3.js"></script>
+                    </strong>
+                </p>
+                <div style="overflow:hidden;width: 600px;height: 400px;">
+                    <iframe width="600" height="400" src="https://maps.google.com/maps?width=700&amp;height=440&amp;hl=en&amp;q=%D0%94%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%20%20%D1%83%D0%BB.%20%D0%A4%D1%80%D1%83%D0%BD%D0%B7%D0%B5%205+(%D0%9D%D0%B0%D0%B7%D0%B2%D0%B0%D0%BD%D0%B8%D0%B5)&amp;ie=UTF8&amp;t=&amp;z=16&amp;iwloc=B&amp;output=embed" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"></iframe>
+                    <style>
+                        #gmap_canvas img {
+                            max-width: none !important;
+                            background: none !important
+                        }
+                    </style>
+                </div>
+                <br />
+                <small>
+                    <a href="https://www.google.com/maps/place/Vasylia+Chaplenka+St,+5,+Dnipropetrovs'k,+Dnipropetrovs'ka+oblast,+Ukraine,+49000/" style="color:#0000FF;text-align:left" target="_blank">Просмотреть увеличенную карту</a>
+                </small>
+            </td>
+        </tr>
+    </table>
+    <span class="article_separator">&nbsp;</span>
+}

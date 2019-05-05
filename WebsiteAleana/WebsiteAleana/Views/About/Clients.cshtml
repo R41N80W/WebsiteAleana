@@ -1,0 +1,123 @@
+﻿@{
+    ViewData["Title"] = "Клиенты";
+}
+
+@section AboutSideMenu{
+    <li class="parent item40">
+        <a asp-area="" asp-controller="About" asp-action="Index"><span>О компании</span></a>
+        <ul>
+            <li class="item41"><a asp-area="" asp-controller="About" asp-action="Team"><span>Команда</span></a></li>
+            <li id="current" class="active item43"><a asp-area="" asp-controller="About" asp-action="Clients"><span>Клиенты</span></a></li>
+            <li class="item44"><a asp-area="" asp-controller="About" asp-action="Certificates"><span>Сертификаты</span></a></li>
+            <li class="item45"><a asp-area="" asp-controller="About" asp-action="Partners"><span>Партнеры</span></a></li>
+        </ul>
+    </li>
+}
+
+@section Content{
+    <table class="contentpaneopen">
+        <tr>
+            <td valign="top">
+                <p class="zagolovok2">Наши клиенты:</p>
+                <table style="border: 0pt solid #030303;" border="0" cellspacing="0" align="left">
+                    <tbody></tbody>
+                    <col valign="middle" width="150px"></col>
+                    <col valign="middle" width="197px"></col>
+                    <col valign="middle" width="150px"></col>
+                    <col valign="middle" width="197px"></col>
+                    <tbody>
+                        <tr>
+                            <td><img src="~/images/clients/dcc.jpg" border="0" alt="dcc" width="150" height="75" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.dcc-ua.com/" target="_blank">СП ООО "Цифровая сотовая связь Украины"</a></td>
+                            <td><img src="~/images/clients/dneprogaz.jpg" border="0" alt="dneprogaz" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.dneprogaz.dp.ua/" target="_blank">ОАО "Днепрогаз"</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/dneproshina.png" border="0" alt="dneproshina" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.dneproshina.dp.ua/" target="_blank">ОАО "Днепрошина"</a></td>
+                            <td><img src="~/images/clients/doe.jpg" border="0" alt="doe" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.doe.dp.ua" target="_blank">Днепрооблэнерго</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/donetskmisgas.jpg" border="0" alt="donetskmisgas" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.gaz.donetsk.ua/" target="_blank">ОАО "Донецкгоргаз"</a></td>
+                            <td><img src="~/images/clients/harkivgas.jpg" border="0" alt="harkivgas" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.gazeks.ru/activity_p_6_p__p_.html" target="_blank">ОАО "Харьковгаз"</a></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/harkivmiskgas.jpg" border="0" alt="harkivmiskgas" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;">ОАО "Харьковгоргаз"<br /></td>
+                            <td><img src="~/images/clients/umc.jpg" border="0" alt="umc" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.mts.com.ua" target="_blank">ДТУ "Украинская мобильная связь"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/krivoriggaz.jpg" border="0" alt="krivoriggaz" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.krgaz.dp.ua/" target="_blank">ОАО "Криворожгаз"</a><br /></td>
+                            <td><img src="~/images/clients/mebel-progress.jpg" border="0" alt="mebel-progress" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.mebel-progress.com/" target="_blank">ОАО "Прогресс"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/polifarb.jpg" border="0" alt="polifarb" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.polifarb.ua/">ООО "Полифарб"</a><br /></td>
+                            <td><img src="~/images/clients/rainford.jpg" border="0" alt="rainford" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.rainford.ua/" target="_blank">ТПГ "Рейнфорд"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/steklo.jpg" border="0" alt="popasnajaglass" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.popasnajaglass.com.ua/" target="_blank">Попаснянский стекольный завод (Луганская обл.)</a><br /></td>
+                            <td><img src="~/images/clients/velton_telecom.jpg" border="0" alt="velton_telecom" width="150" height="75" style="margin: 5px 0px; float: left; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.velton.ua/" target="_blank">ООО ТК "Велтон-Телеком"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/dneprtrub.jpg" border="0" alt="dneprtrub" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://aodtz.ptcor.net/" target="_blank">ОАО "Днепропетровский трубный завод"</a><br /></td>
+                            <td><img src="~/images/clients/dneprrechport.jpg" border="0" alt="dneprrechport" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.gold.dn.ua/catalog/27/16614/index.html" target="_blank">Днепропетровский речной порт</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/mechanic.jpg" border="0" alt="mechanic" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://mehanic.dn.ua/" target="_blank">ЗАО "Механик"</a><br /></td>
+                            <td><img src="~/images/clients/interpacks.jpg" border="0" alt="interpracks" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://interprax.com.ua/" target="_blank">ООО "Интерпракс"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/karat.jpg" border="0" alt="karat" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.karat.ua/" target="_blank">ТМ "Карат"</a><br /></td>
+                            <td><img src="~/images/clients/lindafarm.jpg" border="0" alt="lindafarm" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.lf.dp.ua/" target="_blank">ООО Система аптек "Линда-Фарм"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/mostobud.jpg" border="0" alt="mostobud" width="150" height="75" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.mostobud.com.ua/" target="_blank">ООО "Мостбуд"</a><br /></td>
+                            <td><img src="~/images/clients/neftehimik.jpg" border="0" alt="neftehimik" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://neftehimik.berdyansk.biz/" target="_blank">КП Санаторий "Нефтехимик Украины"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/nicra.jpg" border="0" alt="nicra" width="150" height="75" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://www.nkz.dp.ua/" target="_blank">Никопольский краностроительный завод</a><br /></td>
+                            <td><img src="~/images/clients/techinvest.jpg" border="0" alt="techinvest" width="150" height="75" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://techinvest.com.ua/" target="_blank">ДП с ИИ "Техинвест"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td><img src="~/images/clients/transmetall.jpg" border="0" alt="transmetall" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://transmetall.uaprom.net/" target="_blank">ООО "Транс-металл"</a><br /></td>
+                            <td><img src="~/images/clients/hlebukraine.jpg" border="0" alt="hlebukraine" style="float: left; margin: 5px 0px; border: 0pt none;" /></td>
+                            <td style="text-align: left; padding-left:10px;"><a href="http://khlib.com.ua/" target="_blank">ДП ГАК "Хлеб Украины"</a><br /></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </td>
+        </tr>
+    </table>
+    <span class="article_separator">&nbsp;</span>
+}

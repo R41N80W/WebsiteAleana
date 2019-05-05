@@ -1,0 +1,71 @@
+﻿.zagolovok {
+    color: #4b4b4b;
+    padding-left: 35px;
+    padding-top: 3px;
+    margin-top: 5px;
+    height: 30px;
+    text-align: left;
+    font-weight: normal;
+    font-family: book antiqua;
+    background-image: url('../images/indent.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: 24px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.zagolovok2, h1 {
+    font-weight: normal;
+    color: #102947;
+    padding-left: 32px;
+    padding-top: 3px;
+    margin-left: -10px;
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-family: georgia;
+    background-image: url('../images/indent.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    font-size: 22px;
+}
+
+.podzagolovok2 {
+    color: #184a87;
+    padding-left: 0px;
+    padding-top: 3px;
+    margin-top: 5px;
+    text-align: left;
+    font-size: 17px;
+    font-style: italic;
+}
+
+.podzagolovok1, h2 {
+    font-weight: normal;
+    color: #102947;
+    padding-left: 0px;
+    padding-top: 3px;
+    margin-top: 5px;
+    text-align: left;
+    font-family: georgia;
+    font-size: 17px;
+}
+
+.abzac {
+    text-indent: 25px;
+}
+
+.indent1 {
+    padding-left: 10px;
+    list-style-image: url(http://http://aleana.biz/templates/Aleana/images/indent2.png);
+}
+
+.tick {
+    padding-left: 30px;
+    list-style-image: url(http://aleana.biz/templates/Aleana/images/indent3.png);
+}
+
+    .tick li {
+        margin-top: 5px;
+    }

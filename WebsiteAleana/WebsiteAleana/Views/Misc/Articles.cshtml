@@ -1,0 +1,65 @@
+﻿@{
+    ViewData["Title"] = "Мельниченко Е.Д.";
+}
+
+@section MiscSideMenu{
+    <li class="item56"><a asp-area="" asp-controller="Misc" asp-action="Reorganization"><span>Преобразование АО</span></a></li>
+    <li class="item57"><a asp-area="" asp-controller="Misc" asp-action="Tech"><span>Изготовление техпаспорта</span></a></li>
+    <li class="item59"><a asp-area="" asp-controller="Misc" asp-action="UnauthBuild"><span>Узаконение самостроев</span></a></li>
+    <li class="item71"><a asp-area="" asp-controller="Misc" asp-action="Contacts"><span>Контакты</span></a></li>
+    <li id="current" class="active item72"><a asp-area="" asp-controller="Misc" asp-action="Articles"><span>Статьи</span></a></li>
+}
+
+@section Content{
+    <table class="blog" cellpadding="0" cellspacing="0">
+        <tr>
+            <td valign="top">
+                <div>
+                    <table class="contentpaneopen">
+                        <tr>
+                            <td valign="top" colspan="2">
+                                <p class="zagolovok2" style="text-indent:25px;">Статьи</p>
+                                <p class="podzagolovok1" style="text-indent:25px;">Особенности применения сравнительного подхода при оценке стоимости недвижимости</p>
+                                <p class="abzac" style="text-align: justify;">Актуальной задачей при оценке стоимости недвижимости является применение тех подходов и методов, которые обеспечат достоверный результат. В настоящее время наиболее часто применяемые методы, в частности, в рамках сравнительного подхода, имеют ряд существенных недостатков, которые можно исключить при комплексном анализе объекта оценки, рыночной среды, а также использовании алгоритма оценки, адаптированного к существующим условиям и специфике исходных данных...</p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a asp-area="" asp-controller="Articles" asp-action="_1" class="readon">
+                                    Подробнее...
+                                </a>
+                            </td>
+                        </tr>
+                    </table>
+                    <span class="article_separator">&nbsp;</span>
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td valign="top">
+                <table width="100%" cellpadding="0" cellspacing="0">
+                    <tr>
+                        <td valign="top" width="100%" class="article_column">
+                            <table class="contentpaneopen">
+                                <tr>
+                                    <td valign="top" colspan="2">
+                                        <p class="podzagolovok1" style="text-indent:25px;">Теоретические аспекты категории стоимости, применяемой при оценке предприятий</p>
+                                        <p class="abzac">В статье рассматриваются теоретические аспекты категории стоимости, как основополагающего понятия, используемого при независимой оценке имущества, имущественных прав и целостных имущественных комплексов. Корректное использование тех или иных видов стоимости, базирующееся на осознании понятия, создает предпосылки для успешного применения подходов, методов и оценочных процедур и получения достоверного результата оценки.</p>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td colspan="2">
+                                        <a asp-area="" asp-controller="Articles" asp-action="_2" class="readon">
+                                            Подробнее...
+                                        </a>
+                                    </td>
+                                </tr>
+                            </table>
+                            <span class="article_separator">&nbsp;</span>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
+}
